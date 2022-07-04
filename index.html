@@ -6,28 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <script src="./js/functions.js"></script>
 </head>
 
 <body>
-
-
-
-    <div class="logo">Logo de la empresa</div>
-    <form action="welcome.html">
-        <div>
-            <input type="email" placeholder=" "></input><Label>Correo electrónico</Label>
+    <div class="screen">
+        <div class="content-login">
+            <div class="img-logo"></div>
+            <div class="form-login">
+                <div class="field">
+                    <input type="email" placeholder=" " />
+                    <Label>Correo electrónico</Label>
+                </div>
+                <div class="field">
+                    <input type="password" placeholder=" " />
+                    <Label>Contraseña</Label>
+                </div>
+            </div>
+            <button type="submit" onclick="welcome()">Ingresar</button>
+            <a href="#">Olvidé mi contraseña</a>
         </div>
-        <div>
-            <input type="password" placeholder=" " style="letter-spacing: 6px;"></input><Label>Contraseña</Label>
-        </div>
-        <button type="submit">Ingresar</button>
-        <a href="#">Olvidé mi contraseña</a>
-    </form>
+    </div>
 </body>
 
 </html>

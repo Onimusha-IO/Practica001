@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand";
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.screen {
+    height: 100vh;
+}
+
+.header {
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .left i {
+    font-size: 22px;
+    color: #959595;
+}
+
+.logo {
+    width: 145px;
+    height: 20px;
+    background-image: url("../img/Group 178.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/image 8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.content {
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    width: 120px;
+    height: 120px;
+    background-image: url("../img/image 8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 11px;
+}
+
+.userName {
+    font-weight: 700;
+    color: #555555;
+}
+
+.jobTitle {
+    font-weight: 500;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+a {
+    font-weight: 500;
+    color: #0500FF;
+    transition: all 0.4s;
+}
+
+a:active {
+    transform: scale(0.9);
+}
+
+.menuPanel {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 275px;
+    height: calc(100vh - 50px);
+    left: 0;
+    padding: 30px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: left 0.4s;
+    gap: 21px;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: #787878;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+i {
+    color: #cccccc;
+}
+
+
+.text {
+    color: #cccccc;
+    font-weight: 600;
+}
